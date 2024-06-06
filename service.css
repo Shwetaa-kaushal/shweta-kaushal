@@ -1,0 +1,201 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    
+    }
+body{
+    background-color: rgb(236, 236, 236);
+}
+.b {
+    display: flex;
+    height: 80px;
+   background-color: rgb(255, 212, 237);
+    justify-content: space-around;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ 
+ .navbar {
+    display: flex;
+ }
+ 
+ .menu {
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+ 
+ .menu a {
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    padding: 5px 15px;
+    letter-spacing: 2px;
+    font-size: 18px;
+ }
+ 
+ .menu a:hover {
+    border-bottom: 4px solid rgb(225, 43, 152);
+    transition: 0.2s;
+ }
+ 
+ .signup {
+    margin-top: 30px;
+    margin-left: 100px;
+ }
+ 
+ .signup a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 12px 30px;
+    border: 2px solid rgb(155, 7, 31);
+ }
+ 
+ .signup a:hover {
+    background-color: rgb(240, 38, 38);
+    transition: 0.4s;
+    color: #fee;
+ }
+ 
+ .companyname {
+    color: rgb(3, 175, 249);
+    font-weight: bolder;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+ }
+
+.services {
+    padding: 50px;
+    height: 40vh;
+    width: 194.7vh;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(./images/beach.jpg);
+    background-size: cover;
+}
+.tourservice{
+    background-color: rgb(236, 236, 236);
+    margin-bottom: 20px;
+    margin-top: -50px ;
+}
+.topservice{
+    background-color: rgb(236, 236, 236);
+}
+.services p {
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.tourservice h1 {
+    text-align: center;
+    color: #5ebf04f3;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.service1,
+ .service2 {
+   display: flex;
+ }
+ .topservice{
+    margin-left: 20px;
+ }
+  .service1 div{
+    width: 250px;
+   height: 250px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin: 20px;
+   background-color: white;
+   color: whitesmoke;
+   font-size: 30px;
+   font-weight: bolder;
+   border: 1px solid #01531d;
+   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+   cursor: pointer;
+ }
+ .topservice{
+    margin-left: 80PX;
+ }
+ .service1 div:hover {
+    color: #00ff88;
+  }
+.tour{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)),url(./images/tourguide.jpg);
+    background-size: 250px 250px;
+}
+.hotel{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)),url(./images/hotel.jpg);
+    background-size: 250px 250px;
+}
+
+.ticket{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)),url(./images/ticket.jpg);
+    background-size: 250px 250px;
+}
+
+.pet{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)),url(./images/prt.jpg);
+    background-size: 250px 250px;
+}
+
+.transport{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)),url(./images/transport.jpg);
+    background-size: 250px 250px;
+}
+
+.event{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)),url(./images/event.jpg);
+    background-size: 250px 250px;
+}
+
+.cruise{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)),url(./images/cruise.jpg);
+    background-size: 250px 250px;
+}
+.education{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)),url(./images/education.jpg);
+    background-size: 250px 250px;
+}
+.moresee {
+    display: flex;
+   margin-left: -40px;
+}
+.moresee div{
+    justify-content: space-around;
+    margin-left: 40px;
+}
+.panel,
+.flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #9ae4ee;
+    border: solid 1px #0e70f0;
+    height: 30px;
+    width: 200px;
+    font-size: 25px;
+    margin-left: 40px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.panel {
+    margin-top: 10px;
+    display: none;
+    height: 170px;
+    width: 210px;
+    font-size: 13px;
+    color: rgb(49, 49, 49);
+    background-color: rgb(212, 253, 136);
+    font-style: oblique;
+    margin-right: -40px;
+}
