@@ -84,6 +84,12 @@ body{
     margin-bottom: 20px;
     margin-top: -50px ;
 }
+.topservice p{
+    font-size: 40px;
+    align-items: center;
+    text-align: center;
+  
+}
 .topservice{
     background-color: rgb(236, 236, 236);
 }
