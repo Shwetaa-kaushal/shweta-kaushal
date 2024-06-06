@@ -1,0 +1,147 @@
+* {
+   margin: 0%;
+   padding: 0%;
+      }
+  
+.b {
+   display: flex;
+   height: 80px;
+   background-color: rgb(255, 212, 237);
+   justify-content: space-around;
+   color: black;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar {
+   display: flex;
+}
+
+.menu {
+   margin-left: 150px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.menu a {
+   margin: 5px;
+   text-decoration: none;
+   color: black;
+   padding: 5px 15px;
+   letter-spacing: 2px;
+   font-size: 18px;
+}
+
+.menu a:hover {
+   border-bottom: 4px solid rgb(225, 43, 152);
+   transition: 0.2s;
+}
+
+.signup {
+   margin-top: 30px;
+   margin-left: 100px;
+}
+
+.signup a {
+   text-decoration: none;
+   color: black;
+   font-size: 18px;
+   font-weight: bold;
+   border-radius: 12px;
+   padding: 12px 30px;
+   border: 2px solid rgb(155, 7, 31);
+}
+
+.signup a:hover {
+   background-color: rgb(240, 38, 38);
+   transition: 0.4s;
+   color: #fee;
+}
+
+.companyname {
+   color: rgb(3, 175, 249);
+   font-weight: bolder;
+   margin-left: 20px;
+   font-size: 20px;
+   margin-top: 20px;
+}
+
+.about {
+   padding: 50px;
+   height: 40vh;
+   width: 194.7vh;
+   text-align: center;
+   color: white;
+   font-size: 50px;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(./images/beach.jpg);
+   background-size: cover;
+}
+
+.about p {
+   margin-top: 50px;
+   font-size: 30px;
+   font-weight: bold;
+}
+.company{
+   background-color: #eee;
+}
+
+.company div {
+   width: 100%;
+   display: flex;
+}
+
+.aboutus {
+   display: flex;
+   flex-direction: column;
+   font-size: 20px;
+   margin-top: 20px;
+}
+
+.aboutus h1 {
+   color: #5ebf04f3;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   letter-spacing: 2px;
+   margin-bottom: 0px;
+}
+
+.aboutus h2 {
+   font-size: 50px;
+   font-weight: bold;
+   margin-top: 30px;
+}
+
+.features {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 50px 0;
+   background-color: #eee;
+}
+
+.feature-item {
+   text-align: center;
+   max-width: 300px;
+}
+
+.icon {
+   background-color: #8cc63f;
+   padding: 20px;
+   border-radius: 10px;
+   margin-bottom: 20px;
+}
+
+.features h3 {
+   font-size: 30px;
+   margin-bottom: 10px;
+   color: #333;
+}
+
+.features p {
+   font-size: 15px;
+   color: #666;
+}
+
+.icons img {
+   border: 4px solid black;
+}

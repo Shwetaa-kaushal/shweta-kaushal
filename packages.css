@@ -1,0 +1,227 @@
+
+* {
+    margin: 0%;
+    padding: 0%;
+      }
+      .b {
+    display: flex;
+    height: 80px;
+    background-color: rgb(255, 212, 237);
+    justify-content: space-around;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ 
+ .navbar {
+    display: flex;
+ }
+ 
+ .menu {
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+ 
+ .menu a {
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    padding: 5px 15px;
+    letter-spacing: 2px;
+    font-size: 18px;
+ }
+ 
+ .menu a:hover {
+    border-bottom: 4px solid rgb(225, 43, 152);
+    transition: 0.2s;
+ }
+ 
+ .signup {
+    margin-top: 30px;
+    margin-left: 100px;
+ }
+ 
+ .signup a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 12px 30px;
+    border: 2px solid rgb(155, 7, 31);
+ }
+ 
+ .signup a:hover {
+    background-color: rgb(240, 38, 38);
+    transition: 0.4s;
+    color: #fee;
+ }
+ 
+ .companyname {
+    color: rgb(3, 175, 249);
+    font-weight: bolder;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+ }
+ .packages{
+    padding: 50px;
+    height: 40vh;
+    width: 194.7vh;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(./images/beach.jpg);
+    background-size: cover;
+}
+.packages p{
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.location {
+    font-size: 14px;
+    color: #777;
+}
+
+.title {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.rating-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.rating {
+    background-color: #49d84d;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.price {
+    font-size: 18px;
+    color: #333;
+}
+.travelpack h1 {
+    text-align: center;
+    color: #5ebf04f3;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.packs img{
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+.packs,
+.travelpack{
+    background-color: #eeeeee;
+}
+.card i {
+    color:gold;
+}
+.topplaces{
+    background-color: #eee;
+}
+.topplaces h1{
+    text-align: center;
+    letter-spacing: 2px;
+    color: #49d84d;
+    font-size: 40px;
+}
+.topplaces p{
+    font-size: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+    font-weight:lighter;
+}
+.city1,
+.city2{
+    display: flex;
+    margin-left: 90px;
+}
+.city1 div,
+.city2 div{
+    width: 350px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    background-color: white;
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: bolder;
+    border: 1px solid #01531d;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+.brazil{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)),url(./images/brazil.webp);
+    background-size: 350px 250px;
+    margin-left: 40px;
+}
+.russia{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)),url(./images/russia.jpeg);
+    background-size: 350px 250px;
+}
+.india{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)),url(./images/india.webp);
+    background-size: 350px 250px;
+}
+.mexico{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)),url(./images/mexico.jpg);
+    background-size: 350px 250px;
+}
+.germany{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)),url(./images/germany.jpg);
+    background-size: 350px 250px;
+}
+.united{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)),url(./images/usa.jpeg);
+    background-size: 350px 250px;
+}
+.sectionimg div:hover{
+    color: #00ff88;
+}
+.sectionimg{
+    background-color: #eee;
+}
